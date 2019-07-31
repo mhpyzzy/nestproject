@@ -35,7 +35,7 @@ export class CatsController {
     throw new HttpException(
       {
         code: 1002,
-        msg: 'this is a customer error',
+        msg: 'this is a customer errors!',
       },
       HttpStatus.FORBIDDEN,
     );
